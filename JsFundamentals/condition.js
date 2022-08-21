@@ -6,11 +6,11 @@ console.log(test2);
 
 let login = "Director";
 let message =
-  (login == "Emp")
-    ? "hello"
-    : login == "Director"
-    ? "Greetings"
-    : login == ""
-    ? "no login"
-    : "";
+  login == "Emp"
+      ? "hello"
+      : login == "Director"
+          ? "Greetings"
+          : login == ""
+              ? "no login"
+              : "";
 console.log(message);
